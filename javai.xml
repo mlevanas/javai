@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension version="3.0" method="upgrade" type="component">
+	<name>Javai application</name>	
+
+	<files folder="site">
+		<folder>controllers</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+	</files>
+
+	<administration>
+	</administration>
+</extension>
