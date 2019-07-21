@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <extension version="3.0" method="upgrade" type="component">
 	<name>Javai application</name>	
+	<version>0.0.1</version>
+
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
 
 	<files folder="site">
 		<folder>controllers</folder>
@@ -9,5 +21,8 @@
 	</files>
 
 	<administration>
+		<files folder="admin">
+			<folder>sql</folder>
+		</files>
 	</administration>
 </extension>
