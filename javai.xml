@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <extension version="3.0" method="upgrade" type="component">
-	<name>Javai application</name>	
+	<name>com_javai</name>	
 	<version>0.0.1</version>
 
 	<install>
@@ -18,6 +18,8 @@
 		<folder>controllers</folder>
 		<folder>models</folder>
 		<folder>views</folder>
+		<file>javai.php</file>
+		<file>controller.php</file>
 	</files>
 
 	<administration>
